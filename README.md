@@ -1,6 +1,6 @@
 # CS234 Project: Physics Video Generation and Ranking
 
-This repository contains a video ranking system for evaluating AI-generated physics simulations.
+This repository contains a video ranking system for evaluating AI-generated physics simulations, for tuning video models with reinforcement learning.
 
 ## Contributors
 
