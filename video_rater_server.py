@@ -20,7 +20,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Configuration
-VIDEO_DIR = Path("./azureml_outputs_final")
+VIDEO_DIR = Path("./sample_videos")
 RANKINGS_FILE = Path("./video_rankings.json")
 PROMPTS_FILE = Path("./prompts_8x.json")
 
