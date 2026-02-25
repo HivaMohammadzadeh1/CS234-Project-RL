@@ -22,7 +22,7 @@ CORS(app)
 # Configuration
 VIDEO_DIR = Path("./sample_videos")
 RANKINGS_FILE = Path("./video_rankings.json")
-PROMPTS_FILE = Path("./prompts_8x.json")
+PROMPTS_FILE = Path("./video_generation/prompts_8x.json")
 
 
 @app.route('/')
