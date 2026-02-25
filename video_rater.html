@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Ranking Tool</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #1a1a1a;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .controls button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .controls button:hover {
+            background: #45a049;
+        }
+
+        .controls button:disabled {
+            background: #666;
+            cursor: not-allowed;
+        }
+
+        .prompt-info {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #2a2a2a;
+            border-radius: 8px;
+        }
+
+        .prompt-info .prompt-text {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #4CAF50;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .video-container {
+            position: relative;
+            background: #2a2a2a;
+            border-radius: 8px;
+            padding: 10px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .video-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(76, 175, 80, 0.3);
+        }
+
+        .video-container.selected {
+            border: 3px solid #4CAF50;
+            box-shadow: 0 0 20px rgba(76, 175, 80, 0.5);
+        }
+
+        .video-container video {
+            width: 100%;
+            border-radius: 5px;
+            display: block;
+        }
+
+        .video-info {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .video-number {
+            font-size: 14px;
+            color: #999;
+            margin-bottom: 5px;
+        }
+
+        .rank-display {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .rank-display.ranked {
+            color: #4CAF50;
+        }
+
+        .rank-display.unranked {
+            color: #666;
+        }
+
+        .ranking-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        .ranking-buttons button {
+            padding: 5px 10px;
+            background: #444;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .ranking-buttons button:hover {
+            background: #4CAF50;
+        }
+
+        .ranking-buttons button.active {
+            background: #4CAF50;
+        }
+
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .action-buttons button {
+            padding: 12px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .save-button {
+            background: #2196F3;
+            color: white;
+        }
+
+        .save-button:hover {
+            background: #0b7dda;
+        }
+
+        .next-button {
+            background: #FF9800;
+            color: white;
+        }
+
+        .next-button:hover {
+            background: #e68900;
+        }
+
+        .clear-button {
+            background: #f44336;
+            color: white;
+        }
+
+        .clear-button:hover {
+            background: #da190b;
+        }
+
+        .status-message {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            display: none;
+        }
+
+        .status-message.success {
+            background: #4CAF50;
+            display: block;
+        }
+
+        .status-message.error {
+            background: #f44336;
+            display: block;
+        }
+
+        @media (max-width: 1200px) {
+            .video-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .video-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .instructions {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #2a2a2a;
+            border-radius: 8px;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Video Ranking Tool</h1>
+        <p>Rank 8 videos from 1 (best) to 8 (worst)</p>
+    </div>
+
+    <div class="controls">
+        <button onclick="previousGroup()">← Previous Group</button>
+        <span id="group-counter" style="font-size: 18px;">Group 1 of ?</span>
+        <button onclick="nextGroup()">Next Group →</button>
+        <button onclick="loadVideos()">Reload Videos</button>
+    </div>
+
+    <div class="prompt-info">
+        <div class="prompt-text" id="prompt-text">Loading prompt...</div>
+        <div style="color: #999; font-size: 14px;">Videos: <span id="video-range"></span></div>
+    </div>
+
+    <div class="instructions">
+        Click on a video to select it, then click a rank button (1-8) to assign the rank. Ties are allowed - multiple videos can have the same rank. 1 = Best, 8 = Worst
+    </div>
+
+    <div class="video-grid" id="video-grid">
+        <!-- Videos will be loaded here -->
+    </div>
+
+    <div class="action-buttons">
+        <button class="clear-button" onclick="clearRankings()">Clear Rankings</button>
+        <button class="save-button" onclick="saveRankings()">Save Rankings</button>
+        <button class="next-button" onclick="saveAndNext()">Save & Next Group</button>
+    </div>
+
+    <div class="status-message" id="status-message"></div>
+
+    <script>
+        let currentGroup = 1;
+        let totalGroups = 0;
+        let rankings = {}; // video index -> rank
+        let selectedVideo = null;
+        let videoFiles = [];
+        let prompts = [];
+
+        // Load video list and prompts
+        async function loadVideoList() {
+            try {
+                const response = await fetch('/api/videos');
+                const data = await response.json();
+                videoFiles = data.videos;
+                totalGroups = Math.ceil(videoFiles.length / 8);
+                document.getElementById('group-counter').textContent = `Group ${currentGroup} of ${totalGroups}`;
+
+                // Load prompts
+                const promptResponse = await fetch('/api/prompts');
+                prompts = await promptResponse.json();
+            } catch (error) {
+                console.error('Error loading videos:', error);
+                showStatus('Error loading videos: ' + error.message, 'error');
+            }
+        }
+
+        function getPromptForGroup(group) {
+            // Each group has 8 videos, so we need to get the prompt for the first video in the group
+            const promptIndex = (group - 1) * 8;
+            if (promptIndex < prompts.length) {
+                return prompts[promptIndex].prompt;
+            }
+            return 'Unknown prompt';
+        }
+
+        // Load videos for current group
+        function loadVideos() {
+            const startIdx = (currentGroup - 1) * 8;
+            const endIdx = Math.min(startIdx + 8, videoFiles.length);
+            const groupVideos = videoFiles.slice(startIdx, endIdx);
+
+            const grid = document.getElementById('video-grid');
+            grid.innerHTML = '';
+            rankings = {};
+            selectedVideo = null;
+
+            // Update prompt info
+            document.getElementById('prompt-text').textContent = getPromptForGroup(currentGroup);
+            document.getElementById('video-range').textContent = `${startIdx + 1} - ${endIdx}`;
+
+            groupVideos.forEach((videoFile, idx) => {
+                const container = document.createElement('div');
+                container.className = 'video-container';
+                container.dataset.index = idx;
+
+                const video = document.createElement('video');
+                video.src = `/videos/${videoFile}`;
+                video.loop = true;
+                video.muted = true;
+                video.autoplay = true;
+                video.controls = true;
+
+                const info = document.createElement('div');
+                info.className = 'video-info';
+
+                const videoNumber = document.createElement('div');
+                videoNumber.className = 'video-number';
+                videoNumber.textContent = `Video ${startIdx + idx + 1}`;
+
+                const rankDisplay = document.createElement('div');
+                rankDisplay.className = 'rank-display unranked';
+                rankDisplay.textContent = 'Unranked';
+
+                const rankButtons = document.createElement('div');
+                rankButtons.className = 'ranking-buttons';
+                for (let rank = 1; rank <= 8; rank++) {
+                    const btn = document.createElement('button');
+                    btn.textContent = rank;
+                    btn.onclick = (e) => {
+                        e.stopPropagation();
+                        assignRank(idx, rank);
+                    };
+                    rankButtons.appendChild(btn);
+                }
+
+                info.appendChild(videoNumber);
+                info.appendChild(rankDisplay);
+                info.appendChild(rankButtons);
+                container.appendChild(video);
+                container.appendChild(info);
+
+                container.onclick = () => selectVideo(idx);
+
+                grid.appendChild(container);
+            });
+
+            document.getElementById('group-counter').textContent = `Group ${currentGroup} of ${totalGroups}`;
+        }
+
+        function selectVideo(idx) {
+            // Deselect previous
+            if (selectedVideo !== null) {
+                const prevContainer = document.querySelector(`[data-index="${selectedVideo}"]`);
+                if (prevContainer) prevContainer.classList.remove('selected');
+            }
+
+            // Select new
+            selectedVideo = idx;
+            const container = document.querySelector(`[data-index="${idx}"]`);
+            container.classList.add('selected');
+        }
+
+        function assignRank(videoIdx, rank) {
+            // Assign rank (ties are allowed)
+            rankings[videoIdx] = rank;
+            updateVideoDisplay(videoIdx);
+
+            // Clear selection
+            if (selectedVideo === videoIdx) {
+                const container = document.querySelector(`[data-index="${videoIdx}"]`);
+                if (container) container.classList.remove('selected');
+                selectedVideo = null;
+            }
+        }
+
+        function updateVideoDisplay(idx) {
+            const container = document.querySelector(`[data-index="${idx}"]`);
+            if (!container) return;
+
+            const rankDisplay = container.querySelector('.rank-display');
+            const rankButtons = container.querySelectorAll('.ranking-buttons button');
+
+            if (rankings[idx]) {
+                rankDisplay.textContent = `Rank: ${rankings[idx]}`;
+                rankDisplay.className = 'rank-display ranked';
+                rankButtons.forEach(btn => {
+                    btn.classList.toggle('active', parseInt(btn.textContent) === rankings[idx]);
+                });
+            } else {
+                rankDisplay.textContent = 'Unranked';
+                rankDisplay.className = 'rank-display unranked';
+                rankButtons.forEach(btn => btn.classList.remove('active'));
+            }
+        }
+
+        function clearRankings() {
+            if (confirm('Clear all rankings for this group?')) {
+                rankings = {};
+                for (let idx = 0; idx < 8; idx++) {
+                    updateVideoDisplay(idx);
+                }
+            }
+        }
+
+        async function saveRankings() {
+            const startIdx = (currentGroup - 1) * 8;
+            const data = {
+                group: currentGroup,
+                prompt: getPromptForGroup(currentGroup),
+                rankings: {}
+            };
+
+            // Convert local indices to global video indices
+            for (let localIdx in rankings) {
+                const globalIdx = startIdx + parseInt(localIdx);
+                data.rankings[videoFiles[globalIdx]] = rankings[localIdx];
+            }
+
+            try {
+                const response = await fetch('/api/save_rankings', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                if (response.ok) {
+                    showStatus('Rankings saved successfully!', 'success');
+                } else {
+                    showStatus('Error saving rankings', 'error');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                showStatus('Error saving rankings: ' + error.message, 'error');
+            }
+        }
+
+        async function saveAndNext() {
+            await saveRankings();
+            setTimeout(() => {
+                nextGroup();
+            }, 500);
+        }
+
+        function nextGroup() {
+            if (currentGroup < totalGroups) {
+                currentGroup++;
+                loadVideos();
+            }
+        }
+
+        function previousGroup() {
+            if (currentGroup > 1) {
+                currentGroup--;
+                loadVideos();
+            }
+        }
+
+        function showStatus(message, type) {
+            const statusEl = document.getElementById('status-message');
+            statusEl.textContent = message;
+            statusEl.className = `status-message ${type}`;
+            setTimeout(() => {
+                statusEl.style.display = 'none';
+            }, 3000);
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (selectedVideo !== null && e.key >= '1' && e.key <= '8') {
+                assignRank(selectedVideo, parseInt(e.key));
+            } else if (e.key === 'ArrowRight') {
+                nextGroup();
+            } else if (e.key === 'ArrowLeft') {
+                previousGroup();
+            }
+        });
+
+        // Initialize
+        loadVideoList().then(() => loadVideos());
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "model": "fal-ai/wan/v2.2-a14b/text-to-video",
+  "default_params": {
+    "resolution": "720p",
+    "num_frames": 81,
+    "aspect_ratio": "16:9",
+    "num_inference_steps": 27,
+    "guidance_scale": 3.5,
+    "enable_safety_checker": false,
+    "enable_output_safety_checker": false
+  },
+  "prompts": [
+    {
+      "prompt": "A tennis ball falling from 2 meters onto a hard concrete floor and bouncing several times. Static camera, side view, well lit, 5-second video.",
+      "seed": 255808013
+    },
+    {
+      "prompt": "A simple pendulum made of a metal ball on a 1-meter string swinging back and forth. Static camera, side view.",
+      "seed": 686087737
+    },
+    {
+      "prompt": "A wooden box sliding down a 15-degree inclined plane. Side view, fixed camera.",
+      "seed": 1079144366
+    }
+  ]
+}

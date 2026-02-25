@@ -1,0 +1,60 @@
+A tennis ball falling from 2 meters onto a hard concrete floor and bouncing several times. Static camera, side view, well lit, 5-second video.
+A basketball dropped from shoulder height onto a wooden gym floor, bouncing repeatedly until it settles. Fixed camera, clear background.
+A small red rubber ball dropped from 1.5 meters onto a tile floor, bouncing multiple times. Side view, no camera movement.
+A golf ball dropped from 1 meter onto a hard marble surface, bouncing realistically with decreasing height. Static shot.
+A blue plastic ball falling from a balcony (2 meters) onto pavement and bouncing. Camera fixed at ground level.
+A tennis ball dropped in slow motion onto asphalt, bouncing multiple times. Clear sky background, stationary camera.
+A yellow rubber ball falling from 3 meters onto concrete, bouncing with diminishing height. Side view, no zoom.
+A basketball dropped straight down from 2 meters, bouncing repeatedly in a gym. Fixed tripod camera.
+A small metal ball dropped onto a steel plate, bouncing slightly before settling. Side view.
+A red playground ball falling onto grass and bouncing several times. Stationary camera.
+A ping pong ball dropped from 1 meter onto a wooden table, bouncing multiple times. Side view, well lit.
+A heavy medicine ball dropped onto rubber flooring, bouncing minimally. Static wide shot.
+A tennis ball falling from 2 meters onto a tiled floor and bouncing realistically with energy loss. Fixed camera.
+A small superball dropped from 1 meter onto concrete, bouncing very high multiple times. Static frame.
+A blue rubber ball dropped from 2.5 meters onto asphalt, bouncing repeatedly. No camera motion.
+A basketball falling in an empty gym, bouncing naturally several times. Side view, clear floor visibility.
+A red rubber ball falling straight down onto pavement and bouncing until it stops. Tripod camera.
+A golf ball dropped onto a granite slab, bouncing with small rebounds. Side angle, static.
+A tennis ball falling onto a wooden floor and bouncing with realistic gravity. No motion blur, fixed camera.
+A small foam ball dropped from 2 meters onto carpet, bouncing softly with decreasing height. Static shot.
+A simple pendulum made of a metal ball on a 1-meter string swinging back and forth. Static camera, side view.
+A wooden pendulum bob hanging from a ceiling, released from a 30-degree angle and swinging naturally. Fixed shot.
+A small steel ball attached to a string swinging like a pendulum in a classroom. No camera movement.
+A pendulum clock mechanism swinging steadily. Close side view, stationary camera.
+A red spherical weight on a 0.5-meter string swinging back and forth. Clear pivot visible.
+A heavy metal pendulum released from 45 degrees and oscillating naturally. Static tripod shot.
+A simple pendulum in a physics lab swinging with realistic damping. Side profile.
+A small brass weight tied to a string swinging back and forth in slow motion. Fixed camera.
+A long 2-meter pendulum swinging in an empty hall. No camera motion.
+A pendulum with a blue spherical bob oscillating naturally under gravity. Clear background.
+A simple pendulum swinging with gradually decreasing amplitude. Static shot.
+A pendulum attached to a wooden frame swinging back and forth. Side view, steady camera.
+A metal pendulum bob released gently and oscillating for several seconds. No zoom.
+A physics classroom pendulum experiment showing smooth oscillations. Fixed tripod.
+A small pendulum swinging indoors with visible string tension. Static frame.
+A pendulum with a red ball bob swinging from a 60-degree initial angle. Side view.
+A pendulum in slow motion showing realistic acceleration near the bottom. Fixed camera.
+A long string pendulum swinging under gravity in a white room. No background clutter.
+A pendulum mounted on a lab stand oscillating naturally. Tripod shot.
+A simple gravity pendulum swinging back and forth until gradually slowing down. Static side view.
+A wooden box sliding down a 15-degree inclined plane. Side view, fixed camera.
+A cardboard box sliding down a steep 45-degree ramp. Static shot.
+A metal box sliding down a smooth 30-degree ramp. Clear side profile.
+A small crate sliding down a shallow 10-degree incline. No camera motion.
+A heavy wooden block sliding down a 25-degree ramp. Side view.
+A plastic box sliding down a smooth 20-degree metal ramp. Fixed camera.
+A cardboard box sliding down a 35-degree incline and accelerating under gravity. Static shot.
+A wooden block sliding down a 5-degree shallow ramp slowly. Clear frame.
+A metal box sliding down a steep 50-degree ramp. Side view.
+A small box sliding down a 30-degree ramp with moderate friction. Fixed camera.
+A crate sliding down a wooden incline at 20 degrees. Tripod shot.
+A box sliding down a smooth ramp at 40 degrees. No zoom.
+A heavy steel box sliding down a 15-degree incline slowly. Side view.
+A light cardboard box sliding down a 25-degree ramp. Static camera.
+A wooden cube sliding down a 30-degree inclined plane. Clean background.
+A plastic container sliding down a shallow 8-degree ramp. Side view.
+A metal block sliding down a 60-degree steep ramp. Stationary camera.
+A wooden box sliding down a 12-degree incline with visible acceleration. Fixed tripod.
+A cardboard box sliding down a 28-degree ramp in a physics lab. Side profile.
+A sledder sledding down a snowy hill with a 30 degree angle, view from the side.
