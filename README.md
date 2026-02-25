@@ -2,6 +2,12 @@
 
 This repository contains a video ranking system for evaluating AI-generated physics simulations.
 
+## Contributors
+
+- [Hiva Mohammadzadeh](https://github.com/HivaMohammadzadeh1)
+- [Pranav Kakhandiki](https://github.com/pranavkakhandiki)
+- [Douglas Kwok](https://github.com/douglaskwok)
+
 ## Video Ranking Interface
 
 The tool provides an intuitive web interface to compare and rank 8 videos simultaneously:
