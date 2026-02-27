@@ -1,4 +1,49 @@
 {
+  "group_3": {
+    "group": 3,
+    "prompt": "A small red rubber ball dropped from 1.5 meters onto a tile floor, bouncing multiple times. Side view, no camera movement.",
+    "rankings": {
+      "017_A_small_red_rubber_ball_dropped_from_1.5_meters_on_20260221_023835.mp4": 7,
+      "018_A_small_red_rubber_ball_dropped_from_1.5_meters_on_20260221_024349.mp4": 1,
+      "019_A_small_red_rubber_ball_dropped_from_1.5_meters_on_20260221_024903.mp4": 2,
+      "020_A_small_red_rubber_ball_dropped_from_1.5_meters_on_20260221_025417.mp4": 6,
+      "021_A_small_red_rubber_ball_dropped_from_1.5_meters_on_20260221_025932.mp4": 3,
+      "022_A_small_red_rubber_ball_dropped_from_1.5_meters_on_20260221_030446.mp4": 5,
+      "023_A_small_red_rubber_ball_dropped_from_1.5_meters_on_20260221_031001.mp4": 4,
+      "024_A_small_red_rubber_ball_dropped_from_1.5_meters_on_20260221_031515.mp4": 8
+    },
+    "timestamp": "2026-02-23T21:48:54.026540"
+  },
+  "group_4": {
+    "group": 4,
+    "prompt": "A golf ball dropped from 1 meter onto a hard marble surface, bouncing realistically with decreasing height. Static shot.",
+    "rankings": {
+      "025_A_golf_ball_dropped_from_1_meter_onto_a_hard_marbl_20260221_032028.mp4": 5,
+      "026_A_golf_ball_dropped_from_1_meter_onto_a_hard_marbl_20260221_032543.mp4": 7,
+      "027_A_golf_ball_dropped_from_1_meter_onto_a_hard_marbl_20260221_033056.mp4": 8,
+      "028_A_golf_ball_dropped_from_1_meter_onto_a_hard_marbl_20260221_033611.mp4": 2,
+      "029_A_golf_ball_dropped_from_1_meter_onto_a_hard_marbl_20260221_034125.mp4": 4,
+      "030_A_golf_ball_dropped_from_1_meter_onto_a_hard_marbl_20260221_034640.mp4": 3,
+      "031_A_golf_ball_dropped_from_1_meter_onto_a_hard_marbl_20260221_035153.mp4": 6,
+      "032_A_golf_ball_dropped_from_1_meter_onto_a_hard_marbl_20260221_035707.mp4": 1
+    },
+    "timestamp": "2026-02-23T21:54:29.541067"
+  },
+  "group_5": {
+    "group": 5,
+    "prompt": "A blue plastic ball falling from a balcony (2 meters) onto pavement and bouncing. Camera fixed at ground level.",
+    "rankings": {
+      "033_A_blue_plastic_ball_falling_from_a_balcony_(2_mete_20260221_040222.mp4": 1,
+      "034_A_blue_plastic_ball_falling_from_a_balcony_(2_mete_20260221_040737.mp4": 5,
+      "035_A_blue_plastic_ball_falling_from_a_balcony_(2_mete_20260221_041253.mp4": 2,
+      "036_A_blue_plastic_ball_falling_from_a_balcony_(2_mete_20260221_041808.mp4": 4,
+      "037_A_blue_plastic_ball_falling_from_a_balcony_(2_mete_20260221_042324.mp4": 7,
+      "038_A_blue_plastic_ball_falling_from_a_balcony_(2_mete_20260221_042839.mp4": 3,
+      "039_A_blue_plastic_ball_falling_from_a_balcony_(2_mete_20260221_043354.mp4": 6,
+      "040_A_blue_plastic_ball_falling_from_a_balcony_(2_mete_20260221_043908.mp4": 7
+    },
+    "timestamp": "2026-02-23T22:02:58.358612"
+  },
   "group_6": {
     "group": 6,
     "prompt": "A tennis ball dropped in slow motion onto asphalt, bouncing multiple times. Clear sky background, stationary camera.",
