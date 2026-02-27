@@ -239,10 +239,485 @@
     },
     "timestamp": "2026-02-23T23:16:58.069872"
   },
+  {
   "group_21": {
     "group": 21,
     "prompt": "A simple pendulum made of a metal ball on a 1-meter string swinging back and forth. Static camera, side view.",
-    "rankings": {},
-    "timestamp": "2026-02-23T23:17:09.283314"
+    "rankings": {
+      "161_A_simple_pendulum_made_of_a_metal_ball_on_a_1-mete_20260221_151143.mp4": 5,
+      "162_A_simple_pendulum_made_of_a_metal_ball_on_a_1-mete_20260221_151656.mp4": 1,
+      "163_A_simple_pendulum_made_of_a_metal_ball_on_a_1-mete_20260221_152210.mp4": 3,
+      "164_A_simple_pendulum_made_of_a_metal_ball_on_a_1-mete_20260221_152723.mp4": 7,
+      "165_A_simple_pendulum_made_of_a_metal_ball_on_a_1-mete_20260221_153237.mp4": 2,
+      "166_A_simple_pendulum_made_of_a_metal_ball_on_a_1-mete_20260221_153751.mp4": 8,
+      "167_A_simple_pendulum_made_of_a_metal_ball_on_a_1-mete_20260221_154306.mp4": 4,
+      "168_A_simple_pendulum_made_of_a_metal_ball_on_a_1-mete_20260221_154818.mp4": 6
+    },
+    "timestamp": "2026-02-26T19:22:37.621674"
+  },
+  "group_23": {
+    "group": 23,
+    "prompt": "A small steel ball attached to a string swinging like a pendulum in a classroom. No camera movement.",
+    "rankings": {
+      "177_A_small_steel_ball_attached_to_a_string_swinging_l_20260221_163523.mp4": 4,
+      "178_A_small_steel_ball_attached_to_a_string_swinging_l_20260221_164036.mp4": 2,
+      "179_A_small_steel_ball_attached_to_a_string_swinging_l_20260221_164550.mp4": 3,
+      "180_A_small_steel_ball_attached_to_a_string_swinging_l_20260221_165103.mp4": 7,
+      "181_A_small_steel_ball_attached_to_a_string_swinging_l_20260221_165616.mp4": 5,
+      "182_A_small_steel_ball_attached_to_a_string_swinging_l_20260221_170130.mp4": 8,
+      "183_A_small_steel_ball_attached_to_a_string_swinging_l_20260221_170643.mp4": 6,
+      "184_A_small_steel_ball_attached_to_a_string_swinging_l_20260221_171156.mp4": 1
+    },
+    "timestamp": "2026-02-26T19:27:55.740663"
+  },
+  "group_24": {
+    "group": 24,
+    "prompt": "A pendulum clock mechanism swinging steadily. Close side view, stationary camera.",
+    "rankings": {
+      "185_A_pendulum_clock_mechanism_swinging_steadily._Clos_20260221_171710.mp4": 4,
+      "186_A_pendulum_clock_mechanism_swinging_steadily._Clos_20260221_172224.mp4": 6,
+      "187_A_pendulum_clock_mechanism_swinging_steadily._Clos_20260221_172739.mp4": 1,
+      "188_A_pendulum_clock_mechanism_swinging_steadily._Clos_20260221_173253.mp4": 5,
+      "189_A_pendulum_clock_mechanism_swinging_steadily._Clos_20260221_173807.mp4": 1,
+      "190_A_pendulum_clock_mechanism_swinging_steadily._Clos_20260221_174320.mp4": 2,
+      "191_A_pendulum_clock_mechanism_swinging_steadily._Clos_20260221_174834.mp4": 7,
+      "192_A_pendulum_clock_mechanism_swinging_steadily._Clos_20260221_175347.mp4": 3
+    },
+    "timestamp": "2026-02-26T19:32:18.277907"
+  },
+  "group_25": {
+    "group": 25,
+    "prompt": "A red spherical weight on a 0.5-meter string swinging back and forth. Clear pivot visible.",
+    "rankings": {
+      "193_A_red_spherical_weight_on_a_0.5-meter_string_swing_20260221_175901.mp4": 5,
+      "194_A_red_spherical_weight_on_a_0.5-meter_string_swing_20260221_180413.mp4": 8,
+      "195_A_red_spherical_weight_on_a_0.5-meter_string_swing_20260221_180927.mp4": 6,
+      "196_A_red_spherical_weight_on_a_0.5-meter_string_swing_20260221_181439.mp4": 2,
+      "197_A_red_spherical_weight_on_a_0.5-meter_string_swing_20260221_181953.mp4": 7,
+      "198_A_red_spherical_weight_on_a_0.5-meter_string_swing_20260221_182507.mp4": 3,
+      "199_A_red_spherical_weight_on_a_0.5-meter_string_swing_20260221_183021.mp4": 1,
+      "200_A_red_spherical_weight_on_a_0.5-meter_string_swing_20260221_183535.mp4": 4
+    },
+    "timestamp": "2026-02-26T19:37:02.625044"
+  },
+  "group_27": {
+    "group": 27,
+    "prompt": "A simple pendulum in a physics lab swinging with realistic damping. Side profile.",
+    "rankings": {
+      "209_A_simple_pendulum_in_a_physics_lab_swinging_with_r_20260221_192237.mp4": 3,
+      "210_A_simple_pendulum_in_a_physics_lab_swinging_with_r_20260221_192751.mp4": 1,
+      "211_A_simple_pendulum_in_a_physics_lab_swinging_with_r_20260221_193304.mp4": 6,
+      "212_A_simple_pendulum_in_a_physics_lab_swinging_with_r_20260221_193817.mp4": 4,
+      "213_A_simple_pendulum_in_a_physics_lab_swinging_with_r_20260221_194332.mp4": 2,
+      "214_A_simple_pendulum_in_a_physics_lab_swinging_with_r_20260221_194845.mp4": 6,
+      "215_A_simple_pendulum_in_a_physics_lab_swinging_with_r_20260221_195358.mp4": 7,
+      "216_A_simple_pendulum_in_a_physics_lab_swinging_with_r_20260221_195911.mp4": 5
+    },
+    "timestamp": "2026-02-26T19:41:42.677272"
+  },
+  "group_30": {
+    "group": 30,
+    "prompt": "A pendulum with a blue spherical bob oscillating naturally under gravity. Clear background.",
+    "rankings": {
+      "233_A_pendulum_with_a_blue_spherical_bob_oscillating_n_20260221_212754.mp4": 2,
+      "234_A_pendulum_with_a_blue_spherical_bob_oscillating_n_20260221_213307.mp4": 4,
+      "235_A_pendulum_with_a_blue_spherical_bob_oscillating_n_20260221_213820.mp4": 5,
+      "236_A_pendulum_with_a_blue_spherical_bob_oscillating_n_20260221_214332.mp4": 8,
+      "237_A_pendulum_with_a_blue_spherical_bob_oscillating_n_20260221_214845.mp4": 3,
+      "238_A_pendulum_with_a_blue_spherical_bob_oscillating_n_20260221_215357.mp4": 1,
+      "239_A_pendulum_with_a_blue_spherical_bob_oscillating_n_20260221_215910.mp4": 7,
+      "240_A_pendulum_with_a_blue_spherical_bob_oscillating_n_20260221_220423.mp4": 6
+    },
+    "timestamp": "2026-02-26T19:45:57.472787"
+  },
+  "group_31": {
+    "group": 31,
+    "prompt": "A simple pendulum swinging with gradually decreasing amplitude. Static shot.",
+    "rankings": {
+      "241_A_simple_pendulum_swinging_with_gradually_decreasi_20260221_220936.mp4": 3,
+      "242_A_simple_pendulum_swinging_with_gradually_decreasi_20260221_221449.mp4": 4,
+      "243_A_simple_pendulum_swinging_with_gradually_decreasi_20260221_222003.mp4": 2,
+      "244_A_simple_pendulum_swinging_with_gradually_decreasi_20260221_222516.mp4": 7,
+      "245_A_simple_pendulum_swinging_with_gradually_decreasi_20260221_223029.mp4": 8,
+      "246_A_simple_pendulum_swinging_with_gradually_decreasi_20260221_223542.mp4": 1,
+      "247_A_simple_pendulum_swinging_with_gradually_decreasi_20260221_224054.mp4": 6,
+      "248_A_simple_pendulum_swinging_with_gradually_decreasi_20260221_224606.mp4": 5
+    },
+    "timestamp": "2026-02-26T19:49:19.985033"
+  },
+  "group_32": {
+    "group": 32,
+    "prompt": "A pendulum attached to a wooden frame swinging back and forth. Side view, steady camera.",
+    "rankings": {
+      "249_A_pendulum_attached_to_a_wooden_frame_swinging_bac_20260221_225120.mp4": 8,
+      "250_A_pendulum_attached_to_a_wooden_frame_swinging_bac_20260221_225633.mp4": 2,
+      "251_A_pendulum_attached_to_a_wooden_frame_swinging_bac_20260221_230147.mp4": 1,
+      "252_A_pendulum_attached_to_a_wooden_frame_swinging_bac_20260221_230701.mp4": 3,
+      "253_A_pendulum_attached_to_a_wooden_frame_swinging_bac_20260221_231214.mp4": 4,
+      "254_A_pendulum_attached_to_a_wooden_frame_swinging_bac_20260221_231727.mp4": 6,
+      "255_A_pendulum_attached_to_a_wooden_frame_swinging_bac_20260221_232240.mp4": 7,
+      "256_A_pendulum_attached_to_a_wooden_frame_swinging_bac_20260221_232753.mp4": 5
+    },
+    "timestamp": "2026-02-26T19:53:16.965901"
+  },
+  "group_33": {
+    "group": 33,
+    "prompt": "A metal pendulum bob released gently and oscillating for several seconds. No zoom.",
+    "rankings": {
+      "257_A_metal_pendulum_bob_released_gently_and_oscillati_20260221_233306.mp4": 1,
+      "258_A_metal_pendulum_bob_released_gently_and_oscillati_20260221_233819.mp4": 3,
+      "259_A_metal_pendulum_bob_released_gently_and_oscillati_20260221_234332.mp4": 5,
+      "260_A_metal_pendulum_bob_released_gently_and_oscillati_20260221_234844.mp4": 4,
+      "261_A_metal_pendulum_bob_released_gently_and_oscillati_20260221_235359.mp4": 7,
+      "262_A_metal_pendulum_bob_released_gently_and_oscillati_20260221_235911.mp4": 8,
+      "263_A_metal_pendulum_bob_released_gently_and_oscillati_20260222_000424.mp4": 2,
+      "264_A_metal_pendulum_bob_released_gently_and_oscillati_20260222_000937.mp4": 6
+    },
+    "timestamp": "2026-02-26T19:57:41.545569"
+  },
+  "group_34": {
+    "group": 34,
+    "prompt": "A physics classroom pendulum experiment showing smooth oscillations. Fixed tripod.",
+    "rankings": {
+      "265_A_physics_classroom_pendulum_experiment_showing_sm_20260222_001452.mp4": 5,
+      "266_A_physics_classroom_pendulum_experiment_showing_sm_20260222_002005.mp4": 2,
+      "267_A_physics_classroom_pendulum_experiment_showing_sm_20260222_002518.mp4": 3,
+      "268_A_physics_classroom_pendulum_experiment_showing_sm_20260222_003031.mp4": 4,
+      "269_A_physics_classroom_pendulum_experiment_showing_sm_20260222_003544.mp4": 1,
+      "270_A_physics_classroom_pendulum_experiment_showing_sm_20260222_004058.mp4": 8,
+      "271_A_physics_classroom_pendulum_experiment_showing_sm_20260222_004611.mp4": 7,
+      "272_A_physics_classroom_pendulum_experiment_showing_sm_20260222_005124.mp4": 6
+    },
+    "timestamp": "2026-02-26T20:02:18.376157"
+  },
+  "group_35": {
+    "group": 35,
+    "prompt": "A small pendulum swinging indoors with visible string tension. Static frame.",
+    "rankings": {
+      "273_A_small_pendulum_swinging_indoors_with_visible_str_20260222_005637.mp4": 3,
+      "274_A_small_pendulum_swinging_indoors_with_visible_str_20260222_010151.mp4": 2,
+      "275_A_small_pendulum_swinging_indoors_with_visible_str_20260222_010704.mp4": 1,
+      "276_A_small_pendulum_swinging_indoors_with_visible_str_20260222_011218.mp4": 6,
+      "277_A_small_pendulum_swinging_indoors_with_visible_str_20260222_011731.mp4": 7,
+      "278_A_small_pendulum_swinging_indoors_with_visible_str_20260222_012244.mp4": 4,
+      "279_A_small_pendulum_swinging_indoors_with_visible_str_20260222_012757.mp4": 5,
+      "280_A_small_pendulum_swinging_indoors_with_visible_str_20260222_013310.mp4": 8
+    },
+    "timestamp": "2026-02-26T20:06:11.476762"
+  },
+  "group_36": {
+    "group": 36,
+    "prompt": "A pendulum with a red ball bob swinging from a 60-degree initial angle. Side view.",
+    "rankings": {
+      "281_A_pendulum_with_a_red_ball_bob_swinging_from_a_60-_20260222_013824.mp4": 8,
+      "282_A_pendulum_with_a_red_ball_bob_swinging_from_a_60-_20260222_014337.mp4": 5,
+      "283_A_pendulum_with_a_red_ball_bob_swinging_from_a_60-_20260222_014852.mp4": 7,
+      "284_A_pendulum_with_a_red_ball_bob_swinging_from_a_60-_20260222_015409.mp4": 2,
+      "285_A_pendulum_with_a_red_ball_bob_swinging_from_a_60-_20260222_015923.mp4": 1,
+      "286_A_pendulum_with_a_red_ball_bob_swinging_from_a_60-_20260222_020436.mp4": 4,
+      "287_A_pendulum_with_a_red_ball_bob_swinging_from_a_60-_20260222_020949.mp4": 3,
+      "288_A_pendulum_with_a_red_ball_bob_swinging_from_a_60-_20260222_021506.mp4": 6
+    },
+    "timestamp": "2026-02-26T20:10:36.358559"
+  },
+  "group_37": {
+    "group": 37,
+    "prompt": "A pendulum in slow motion showing realistic acceleration near the bottom. Fixed camera.",
+    "rankings": {
+      "289_A_pendulum_in_slow_motion_showing_realistic_accele_20260222_022022.mp4": 3,
+      "290_A_pendulum_in_slow_motion_showing_realistic_accele_20260222_022536.mp4": 4,
+      "291_A_pendulum_in_slow_motion_showing_realistic_accele_20260222_023050.mp4": 6,
+      "292_A_pendulum_in_slow_motion_showing_realistic_accele_20260222_023603.mp4": 2,
+      "293_A_pendulum_in_slow_motion_showing_realistic_accele_20260222_024116.mp4": 4,
+      "294_A_pendulum_in_slow_motion_showing_realistic_accele_20260222_024629.mp4": 1,
+      "295_A_pendulum_in_slow_motion_showing_realistic_accele_20260222_025142.mp4": 5,
+      "296_A_pendulum_in_slow_motion_showing_realistic_accele_20260222_025654.mp4": 7
+    },
+    "timestamp": "2026-02-26T20:19:21.588649"
+  },
+  "group_38": {
+    "group": 38,
+    "prompt": "A long string pendulum swinging under gravity in a white room. No background clutter.",
+    "rankings": {
+      "297_A_long_string_pendulum_swinging_under_gravity_in_a_20260222_030208.mp4": 4,
+      "298_A_long_string_pendulum_swinging_under_gravity_in_a_20260222_030720.mp4": 6,
+      "299_A_long_string_pendulum_swinging_under_gravity_in_a_20260222_031232.mp4": 8,
+      "300_A_long_string_pendulum_swinging_under_gravity_in_a_20260222_031745.mp4": 5,
+      "301_A_long_string_pendulum_swinging_under_gravity_in_a_20260222_032257.mp4": 7,
+      "302_A_long_string_pendulum_swinging_under_gravity_in_a_20260222_032810.mp4": 1,
+      "303_A_long_string_pendulum_swinging_under_gravity_in_a_20260222_033322.mp4": 3,
+      "304_A_long_string_pendulum_swinging_under_gravity_in_a_20260222_033834.mp4": 2
+    },
+    "timestamp": "2026-02-26T20:23:31.181135"
+  },
+  "group_39": {
+    "group": 39,
+    "prompt": "A pendulum mounted on a lab stand oscillating naturally. Tripod shot.",
+    "rankings": {
+      "305_A_pendulum_mounted_on_a_lab_stand_oscillating_natu_20260222_034346.mp4": 8,
+      "306_A_pendulum_mounted_on_a_lab_stand_oscillating_natu_20260222_034858.mp4": 2,
+      "307_A_pendulum_mounted_on_a_lab_stand_oscillating_natu_20260222_035411.mp4": 3,
+      "308_A_pendulum_mounted_on_a_lab_stand_oscillating_natu_20260222_035925.mp4": 4,
+      "309_A_pendulum_mounted_on_a_lab_stand_oscillating_natu_20260222_040438.mp4": 7,
+      "310_A_pendulum_mounted_on_a_lab_stand_oscillating_natu_20260222_040952.mp4": 6,
+      "311_A_pendulum_mounted_on_a_lab_stand_oscillating_natu_20260222_041505.mp4": 1,
+      "312_A_pendulum_mounted_on_a_lab_stand_oscillating_natu_20260222_042019.mp4": 5
+    },
+    "timestamp": "2026-02-26T20:28:24.402447"
+  },
+  "group_40": {
+    "group": 40,
+    "prompt": "A simple gravity pendulum swinging back and forth until gradually slowing down. Static side view.",
+    "rankings": {
+      "313_A_simple_gravity_pendulum_swinging_back_and_forth__20260222_042532.mp4": 3,
+      "314_A_simple_gravity_pendulum_swinging_back_and_forth__20260222_043044.mp4": 6,
+      "315_A_simple_gravity_pendulum_swinging_back_and_forth__20260222_043556.mp4": 7,
+      "316_A_simple_gravity_pendulum_swinging_back_and_forth__20260222_044109.mp4": 1,
+      "317_A_simple_gravity_pendulum_swinging_back_and_forth__20260222_044622.mp4": 2,
+      "318_A_simple_gravity_pendulum_swinging_back_and_forth__20260222_045136.mp4": 4,
+      "319_A_simple_gravity_pendulum_swinging_back_and_forth__20260222_045649.mp4": 5,
+      "320_A_simple_gravity_pendulum_swinging_back_and_forth__20260222_050202.mp4": 8
+    },
+    "timestamp": "2026-02-26T20:33:18.452242"
+  },
+  "group_41": {
+    "group": 41,
+    "prompt": "A wooden box sliding down a 15-degree inclined plane. Side view, fixed camera.",
+    "rankings": {
+      "321_A_wooden_box_sliding_down_a_15-degree_inclined_pla_20260222_050715.mp4": 5,
+      "322_A_wooden_box_sliding_down_a_15-degree_inclined_pla_20260222_051228.mp4": 2,
+      "323_A_wooden_box_sliding_down_a_15-degree_inclined_pla_20260222_051741.mp4": 3,
+      "324_A_wooden_box_sliding_down_a_15-degree_inclined_pla_20260222_052254.mp4": 1,
+      "325_A_wooden_box_sliding_down_a_15-degree_inclined_pla_20260222_052807.mp4": 6,
+      "326_A_wooden_box_sliding_down_a_15-degree_inclined_pla_20260222_053319.mp4": 4,
+      "327_A_wooden_box_sliding_down_a_15-degree_inclined_pla_20260222_053832.mp4": 8,
+      "328_A_wooden_box_sliding_down_a_15-degree_inclined_pla_20260222_054345.mp4": 7
+    },
+    "timestamp": "2026-02-26T20:37:03.540455"
+  },
+  "group_42": {
+    "group": 42,
+    "prompt": "A cardboard box sliding down a steep 45-degree ramp. Static shot.",
+    "rankings": {
+      "329_A_cardboard_box_sliding_down_a_steep_45-degree_ram_20260222_054858.mp4": 1,
+      "330_A_cardboard_box_sliding_down_a_steep_45-degree_ram_20260222_055410.mp4": 2,
+      "331_A_cardboard_box_sliding_down_a_steep_45-degree_ram_20260222_055924.mp4": 6,
+      "332_A_cardboard_box_sliding_down_a_steep_45-degree_ram_20260222_060437.mp4": 4,
+      "333_A_cardboard_box_sliding_down_a_steep_45-degree_ram_20260222_060951.mp4": 3,
+      "334_A_cardboard_box_sliding_down_a_steep_45-degree_ram_20260222_061504.mp4": 6,
+      "335_A_cardboard_box_sliding_down_a_steep_45-degree_ram_20260222_062018.mp4": 6,
+      "336_A_cardboard_box_sliding_down_a_steep_45-degree_ram_20260222_062533.mp4": 5
+    },
+    "timestamp": "2026-02-26T20:41:01.413755"
+  },
+  "group_43": {
+    "group": 43,
+    "prompt": "A metal box sliding down a smooth 30-degree ramp. Clear side profile.",
+    "rankings": {
+      "337_A_metal_box_sliding_down_a_smooth_30-degree_ramp.__20260222_063046.mp4": 6,
+      "338_A_metal_box_sliding_down_a_smooth_30-degree_ramp.__20260222_063559.mp4": 5,
+      "339_A_metal_box_sliding_down_a_smooth_30-degree_ramp.__20260222_064111.mp4": 1,
+      "340_A_metal_box_sliding_down_a_smooth_30-degree_ramp.__20260222_064624.mp4": 2,
+      "341_A_metal_box_sliding_down_a_smooth_30-degree_ramp.__20260222_065137.mp4": 3,
+      "342_A_metal_box_sliding_down_a_smooth_30-degree_ramp.__20260222_065650.mp4": 4,
+      "343_A_metal_box_sliding_down_a_smooth_30-degree_ramp.__20260222_070203.mp4": 7,
+      "344_A_metal_box_sliding_down_a_smooth_30-degree_ramp.__20260222_070716.mp4": 3
+    },
+    "timestamp": "2026-02-26T20:44:09.256919"
+  },
+  "group_44": {
+    "group": 44,
+    "prompt": "A small crate sliding down a shallow 10-degree incline. No camera motion.",
+    "rankings": {
+      "345_A_small_crate_sliding_down_a_shallow_10-degree_inc_20260222_071229.mp4": 2,
+      "346_A_small_crate_sliding_down_a_shallow_10-degree_inc_20260222_071743.mp4": 3,
+      "347_A_small_crate_sliding_down_a_shallow_10-degree_inc_20260222_072257.mp4": 7,
+      "348_A_small_crate_sliding_down_a_shallow_10-degree_inc_20260222_072812.mp4": 8,
+      "349_A_small_crate_sliding_down_a_shallow_10-degree_inc_20260222_073326.mp4": 5,
+      "350_A_small_crate_sliding_down_a_shallow_10-degree_inc_20260222_073838.mp4": 1,
+      "351_A_small_crate_sliding_down_a_shallow_10-degree_inc_20260222_074352.mp4": 4,
+      "352_A_small_crate_sliding_down_a_shallow_10-degree_inc_20260222_074904.mp4": 6
+    },
+    "timestamp": "2026-02-26T20:47:31.081944"
+  },
+  "group_45": {
+    "group": 45,
+    "prompt": "A heavy wooden block sliding down a 25-degree ramp. Side view.",
+    "rankings": {
+      "353_A_heavy_wooden_block_sliding_down_a_25-degree_ramp_20260222_075418.mp4": 5,
+      "354_A_heavy_wooden_block_sliding_down_a_25-degree_ramp_20260222_075932.mp4": 4,
+      "355_A_heavy_wooden_block_sliding_down_a_25-degree_ramp_20260222_080446.mp4": 3,
+      "356_A_heavy_wooden_block_sliding_down_a_25-degree_ramp_20260222_080959.mp4": 8,
+      "357_A_heavy_wooden_block_sliding_down_a_25-degree_ramp_20260222_081513.mp4": 7,
+      "358_A_heavy_wooden_block_sliding_down_a_25-degree_ramp_20260222_082026.mp4": 1,
+      "359_A_heavy_wooden_block_sliding_down_a_25-degree_ramp_20260222_082540.mp4": 6,
+      "360_A_heavy_wooden_block_sliding_down_a_25-degree_ramp_20260222_083053.mp4": 2
+    },
+    "timestamp": "2026-02-26T20:51:46.532824"
+  },
+  "group_47": {
+    "group": 47,
+    "prompt": "A cardboard box sliding down a 35-degree incline and accelerating under gravity. Static shot.",
+    "rankings": {
+      "369_A_cardboard_box_sliding_down_a_35-degree_incline_a_20260222_091750.mp4": 1,
+      "370_A_cardboard_box_sliding_down_a_35-degree_incline_a_20260222_092303.mp4": 5,
+      "371_A_cardboard_box_sliding_down_a_35-degree_incline_a_20260222_092816.mp4": 3,
+      "372_A_cardboard_box_sliding_down_a_35-degree_incline_a_20260222_093329.mp4": 3,
+      "373_A_cardboard_box_sliding_down_a_35-degree_incline_a_20260222_093844.mp4": 6,
+      "374_A_cardboard_box_sliding_down_a_35-degree_incline_a_20260222_094358.mp4": 4,
+      "375_A_cardboard_box_sliding_down_a_35-degree_incline_a_20260222_094911.mp4": 7,
+      "376_A_cardboard_box_sliding_down_a_35-degree_incline_a_20260222_095425.mp4": 2
+    },
+    "timestamp": "2026-02-26T20:55:16.185500"
+  },
+  "group_48": {
+    "group": 48,
+    "prompt": "A wooden block sliding down a 5-degree shallow ramp slowly. Clear frame.",
+    "rankings": {
+      "377_A_wooden_block_sliding_down_a_5-degree_shallow_ram_20260222_095940.mp4": 1,
+      "378_A_wooden_block_sliding_down_a_5-degree_shallow_ram_20260222_100453.mp4": 4,
+      "379_A_wooden_block_sliding_down_a_5-degree_shallow_ram_20260222_101007.mp4": 7,
+      "380_A_wooden_block_sliding_down_a_5-degree_shallow_ram_20260222_101520.mp4": 3,
+      "381_A_wooden_block_sliding_down_a_5-degree_shallow_ram_20260222_102035.mp4": 8,
+      "382_A_wooden_block_sliding_down_a_5-degree_shallow_ram_20260222_102549.mp4": 5,
+      "383_A_wooden_block_sliding_down_a_5-degree_shallow_ram_20260222_103102.mp4": 2,
+      "384_A_wooden_block_sliding_down_a_5-degree_shallow_ram_20260222_103616.mp4": 6
+    },
+    "timestamp": "2026-02-26T20:57:19.751810"
+  },
+  "group_50": {
+    "group": 50,
+    "prompt": "A small box sliding down a 30-degree ramp with moderate friction. Fixed camera.",
+    "rankings": {
+      "393_A_small_box_sliding_down_a_30-degree_ramp_with_mod_20260222_112321.mp4": 8,
+      "394_A_small_box_sliding_down_a_30-degree_ramp_with_mod_20260222_112835.mp4": 5,
+      "395_A_small_box_sliding_down_a_30-degree_ramp_with_mod_20260222_113349.mp4": 4,
+      "396_A_small_box_sliding_down_a_30-degree_ramp_with_mod_20260222_113903.mp4": 7,
+      "397_A_small_box_sliding_down_a_30-degree_ramp_with_mod_20260222_114417.mp4": 2,
+      "398_A_small_box_sliding_down_a_30-degree_ramp_with_mod_20260222_114930.mp4": 1,
+      "399_A_small_box_sliding_down_a_30-degree_ramp_with_mod_20260222_115444.mp4": 3,
+      "400_A_small_box_sliding_down_a_30-degree_ramp_with_mod_20260222_115956.mp4": 6
+    },
+    "timestamp": "2026-02-26T21:00:52.570005"
+  },
+  "group_52": {
+    "group": 52,
+    "prompt": "A box sliding down a smooth ramp at 40 degrees. No zoom.",
+    "rankings": {
+      "409_A_box_sliding_down_a_smooth_ramp_at_40_degrees._No_20260222_124712.mp4": 3,
+      "410_A_box_sliding_down_a_smooth_ramp_at_40_degrees._No_20260222_125227.mp4": 2,
+      "411_A_box_sliding_down_a_smooth_ramp_at_40_degrees._No_20260222_125741.mp4": 4,
+      "412_A_box_sliding_down_a_smooth_ramp_at_40_degrees._No_20260222_130254.mp4": 7,
+      "413_A_box_sliding_down_a_smooth_ramp_at_40_degrees._No_20260222_130808.mp4": 8,
+      "414_A_box_sliding_down_a_smooth_ramp_at_40_degrees._No_20260222_131321.mp4": 5,
+      "415_A_box_sliding_down_a_smooth_ramp_at_40_degrees._No_20260222_131835.mp4": 1,
+      "416_A_box_sliding_down_a_smooth_ramp_at_40_degrees._No_20260222_132350.mp4": 6
+    },
+    "timestamp": "2026-02-26T21:06:00.589417"
+  },
+  "group_54": {
+    "group": 54,
+    "prompt": "A light cardboard box sliding down a 25-degree ramp. Static camera.",
+    "rankings": {
+      "425_A_light_cardboard_box_sliding_down_a_25-degree_ram_20260222_141055.mp4": 2,
+      "426_A_light_cardboard_box_sliding_down_a_25-degree_ram_20260222_141609.mp4": 1,
+      "427_A_light_cardboard_box_sliding_down_a_25-degree_ram_20260222_142123.mp4": 3,
+      "428_A_light_cardboard_box_sliding_down_a_25-degree_ram_20260222_142637.mp4": 5,
+      "429_A_light_cardboard_box_sliding_down_a_25-degree_ram_20260222_143150.mp4": 7,
+      "430_A_light_cardboard_box_sliding_down_a_25-degree_ram_20260222_143704.mp4": 6,
+      "431_A_light_cardboard_box_sliding_down_a_25-degree_ram_20260222_144217.mp4": 8,
+      "432_A_light_cardboard_box_sliding_down_a_25-degree_ram_20260222_144731.mp4": 4
+    },
+    "timestamp": "2026-02-26T21:10:31.360103"
+  },
+  "group_55": {
+    "group": 55,
+    "prompt": "A wooden cube sliding down a 30-degree inclined plane. Clean background.",
+    "rankings": {
+      "433_A_wooden_cube_sliding_down_a_30-degree_inclined_pl_20260222_145244.mp4": 8,
+      "434_A_wooden_cube_sliding_down_a_30-degree_inclined_pl_20260222_145757.mp4": 3,
+      "435_A_wooden_cube_sliding_down_a_30-degree_inclined_pl_20260222_150310.mp4": 6,
+      "436_A_wooden_cube_sliding_down_a_30-degree_inclined_pl_20260222_150824.mp4": 4,
+      "437_A_wooden_cube_sliding_down_a_30-degree_inclined_pl_20260222_151337.mp4": 5,
+      "438_A_wooden_cube_sliding_down_a_30-degree_inclined_pl_20260222_151851.mp4": 1,
+      "439_A_wooden_cube_sliding_down_a_30-degree_inclined_pl_20260222_152405.mp4": 7,
+      "440_A_wooden_cube_sliding_down_a_30-degree_inclined_pl_20260222_152919.mp4": 2
+    },
+    "timestamp": "2026-02-26T21:13:33.768077"
+  },
+  "group_56": {
+    "group": 56,
+    "prompt": "A plastic container sliding down a shallow 8-degree ramp. Side view.",
+    "rankings": {
+      "441_A_plastic_container_sliding_down_a_shallow_8-degre_20260222_153433.mp4": 4,
+      "442_A_plastic_container_sliding_down_a_shallow_8-degre_20260222_153947.mp4": 2,
+      "443_A_plastic_container_sliding_down_a_shallow_8-degre_20260222_154500.mp4": 7,
+      "444_A_plastic_container_sliding_down_a_shallow_8-degre_20260222_155014.mp4": 1,
+      "445_A_plastic_container_sliding_down_a_shallow_8-degre_20260222_155527.mp4": 6,
+      "446_A_plastic_container_sliding_down_a_shallow_8-degre_20260222_160041.mp4": 5,
+      "447_A_plastic_container_sliding_down_a_shallow_8-degre_20260222_160555.mp4": 8,
+      "448_A_plastic_container_sliding_down_a_shallow_8-degre_20260222_161109.mp4": 3
+    },
+    "timestamp": "2026-02-26T21:15:13.232914"
+  },
+  "group_57": {
+    "group": 57,
+    "prompt": "A metal block sliding down a 60-degree steep ramp. Stationary camera.",
+    "rankings": {
+      "449_A_metal_block_sliding_down_a_60-degree_steep_ramp._20260222_161624.mp4": 6,
+      "450_A_metal_block_sliding_down_a_60-degree_steep_ramp._20260222_162139.mp4": 2,
+      "451_A_metal_block_sliding_down_a_60-degree_steep_ramp._20260222_162653.mp4": 5,
+      "452_A_metal_block_sliding_down_a_60-degree_steep_ramp._20260222_163208.mp4": 4,
+      "453_A_metal_block_sliding_down_a_60-degree_steep_ramp._20260222_163723.mp4": 7,
+      "454_A_metal_block_sliding_down_a_60-degree_steep_ramp._20260222_164239.mp4": 8,
+      "455_A_metal_block_sliding_down_a_60-degree_steep_ramp._20260222_164754.mp4": 1,
+      "456_A_metal_block_sliding_down_a_60-degree_steep_ramp._20260222_165309.mp4": 3
+    },
+    "timestamp": "2026-02-26T21:17:45.786402"
+  },
+  "group_58": {
+    "group": 58,
+    "prompt": "A wooden box sliding down a 12-degree incline with visible acceleration. Fixed tripod.",
+    "rankings": {
+      "457_A_wooden_box_sliding_down_a_12-degree_incline_with_20260222_165823.mp4": 7,
+      "458_A_wooden_box_sliding_down_a_12-degree_incline_with_20260222_170338.mp4": 4,
+      "459_A_wooden_box_sliding_down_a_12-degree_incline_with_20260222_170851.mp4": 6,
+      "460_A_wooden_box_sliding_down_a_12-degree_incline_with_20260222_171406.mp4": 1,
+      "461_A_wooden_box_sliding_down_a_12-degree_incline_with_20260222_171920.mp4": 5,
+      "462_A_wooden_box_sliding_down_a_12-degree_incline_with_20260222_172434.mp4": 2,
+      "463_A_wooden_box_sliding_down_a_12-degree_incline_with_20260222_172948.mp4": 3,
+      "464_A_wooden_box_sliding_down_a_12-degree_incline_with_20260222_173502.mp4": 8
+    },
+    "timestamp": "2026-02-26T21:19:56.648228"
+  },
+  "group_59": {
+    "group": 59,
+    "prompt": "A cardboard box sliding down a 28-degree ramp in a physics lab. Side profile.",
+    "rankings": {
+      "465_A_cardboard_box_sliding_down_a_28-degree_ramp_in_a_20260222_174016.mp4": 4,
+      "466_A_cardboard_box_sliding_down_a_28-degree_ramp_in_a_20260222_174530.mp4": 1,
+      "467_A_cardboard_box_sliding_down_a_28-degree_ramp_in_a_20260222_175044.mp4": 5,
+      "468_A_cardboard_box_sliding_down_a_28-degree_ramp_in_a_20260222_175558.mp4": 8,
+      "469_A_cardboard_box_sliding_down_a_28-degree_ramp_in_a_20260222_180112.mp4": 3,
+      "470_A_cardboard_box_sliding_down_a_28-degree_ramp_in_a_20260222_180625.mp4": 6,
+      "471_A_cardboard_box_sliding_down_a_28-degree_ramp_in_a_20260222_181139.mp4": 7,
+      "472_A_cardboard_box_sliding_down_a_28-degree_ramp_in_a_20260222_181653.mp4": 2
+    },
+    "timestamp": "2026-02-26T21:21:56.633198"
+  },
+  "group_60": {
+    "group": 60,
+    "prompt": "A sledder sledding down a snowy hill with a 30 degree angle, view from the side.",
+    "rankings": {
+      "473_A_sledder_sledding_down_a_snowy_hill_with_a_30_deg_20260222_182206.mp4": 5,
+      "474_A_sledder_sledding_down_a_snowy_hill_with_a_30_deg_20260222_182720.mp4": 2,
+      "475_A_sledder_sledding_down_a_snowy_hill_with_a_30_deg_20260222_183234.mp4": 8,
+      "476_A_sledder_sledding_down_a_snowy_hill_with_a_30_deg_20260222_183748.mp4": 1,
+      "477_A_sledder_sledding_down_a_snowy_hill_with_a_30_deg_20260222_184301.mp4": 4,
+      "478_A_sledder_sledding_down_a_snowy_hill_with_a_30_deg_20260222_184815.mp4": 6,
+      "479_A_sledder_sledding_down_a_snowy_hill_with_a_30_deg_20260222_185328.mp4": 3,
+      "480_A_sledder_sledding_down_a_snowy_hill_with_a_30_deg_20260222_185841.mp4": 7
+    },
+    "timestamp": "2026-02-26T21:25:00.406416"
   }
 }
