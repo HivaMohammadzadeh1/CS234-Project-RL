@@ -1,0 +1,32 @@
+{
+  "azure": {
+    "subscription_id": "YOUR_SUBSCRIPTION_ID",
+    "resource_group": "YOUR_RESOURCE_GROUP",
+    "workspace_name": "YOUR_WORKSPACE_NAME",
+    "region": "eastus"
+  },
+  "compute": {
+    "name": "gpu-cluster-a100",
+    "vm_size": "Standard_NC24ads_A100_v4",
+    "max_nodes": 1,
+    "min_nodes": 0,
+    "idle_seconds_before_scaledown": 1800
+  },
+  "training": {
+    "experiment_name": "wan22-dpo-training",
+    "beta": 0.1,
+    "learning_rate": 1e-6,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "epochs": 10,
+    "n_frames": 8,
+    "max_grad_norm": 1.0,
+    "save_every": 500,
+    "seed": 42
+  },
+  "data": {
+    "local_data_dir": "./wan22-dataset",
+    "preference_file": "video_rankings3_pairwise.json",
+    "azure_data_path": null
+  }
+}

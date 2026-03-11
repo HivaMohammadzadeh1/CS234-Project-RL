@@ -1,0 +1,6 @@
+# Azure ML SDK for job submission (run locally)
+azureml-core>=1.50.0
+azureml-mlflow>=1.50.0
+
+# Azure CLI (optional, for command-line management)
+# Install separately: pip install azure-cli

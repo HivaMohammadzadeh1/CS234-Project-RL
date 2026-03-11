@@ -1,0 +1,42 @@
+name: wan22-dpo
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      # Core dependencies
+      - torch>=2.0.0
+      - torchvision
+      - numpy
+      - scipy
+      - matplotlib
+
+      # Diffusers (latest from main for Wan2.2 support)
+      - git+https://github.com/huggingface/diffusers
+
+      # Transformers & Hugging Face
+      - transformers>=4.37.0
+      - accelerate>=0.26.0
+      - huggingface-hub
+
+      # Video processing
+      - opencv-python-headless
+      - pillow
+      - imageio
+      - imageio-ffmpeg
+
+      # Training utilities
+      - tqdm
+      - tensorboard
+      - wandb  # Weights & Biases logging
+
+      # Memory optimization
+      - bitsandbytes
+
+      # Azure ML
+      - azureml-core
+      - azureml-mlflow
