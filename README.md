@@ -22,6 +22,7 @@ Users can view videos side-by-side, assign rankings from 1 (best) to 8 (worst), 
 - **Video Ranking Tool**: Web-based interface to rank and compare generated videos
 - **Sample Videos**: Example videos demonstrating AI-generated physics simulations
 - **Rankings Data**: Saved rankings in JSON format
+- **RLHF Implementation**: Everything related to our RLHF implementation can be found in the RLHF folder
 
 ## Quick Start
 
@@ -30,6 +31,7 @@ Users can view videos side-by-side, assign rankings from 1 (best) to 8 (worst), 
 To generate new physics simulation videos:
 
 1. Navigate to the generation folder:
+
    ```bash
    cd video_generation
    ```
@@ -44,11 +46,13 @@ To generate new physics simulation videos:
 To rank and evaluate generated videos:
 
 1. Install dependencies:
+
    ```bash
    pip install -r requirements_rater.txt
    ```
 
 2. Run the video ranking server:
+
    ```bash
    python video_rater_server.py
    ```
@@ -58,6 +62,7 @@ To rank and evaluate generated videos:
 ## Sample Videos
 
 The `sample_videos/` directory contains 6 example videos demonstrating various physics scenarios:
+
 - Tennis ball falling from 2 meters
 - Basketball dropped from shoulder height
 - Golf ball dropped onto marble surface
@@ -89,6 +94,7 @@ For the complete collection of generated videos, visit:
 ├── video_rankings3.json        # Saved rankings data
 ├── images/                     # Screenshots of the ranking interface
 ├── sample_videos/              # Example generated videos
+├── RLHF/                      # RLHF implementation
 └── video_generation/           # Video generation scripts and prompts
     ├── README.md               # Generation documentation
     ├── batch_generate_api.py   # Main generation script
