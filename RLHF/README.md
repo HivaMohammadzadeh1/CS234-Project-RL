@@ -20,5 +20,5 @@ This folder contains the complete implementation of Reinforcement Learning from 
 
 Training metrics and logs are tracked in Weights & Biases:
 
-- **Reward Model Training**: [View on WandB](https://wandb.ai/shdkwok-stanford/cs234/runs/4gn7srfb)
+- **Reward Model Training**: [View on WandB](https://wandb.ai/shdkwok-stanford/cs234/runs/1c1db5v8)
 - **PPO Training**: [View on WandB](https://wandb.ai/shdkwok-stanford/cs234/runs/4gn7srfb)
