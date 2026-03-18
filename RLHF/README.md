@@ -15,3 +15,10 @@ This folder contains the complete implementation of Reinforcement Learning from 
 - **final_checkpoints/**: Stores the final trained model checkpoints.
   - **reward-model-final/**: Checkpoints for the trained reward model.
   - **wan-ppo-final/**: Checkpoints for the PPO-trained model with specific adaptations for diffusion models.
+
+## WandB Analytics
+
+Training metrics and logs are tracked in Weights & Biases:
+
+- **Reward Model Training**: [View on WandB](https://wandb.ai/shdkwok-stanford/cs234/runs/4gn7srfb)
+- **PPO Training**: [View on WandB](https://wandb.ai/shdkwok-stanford/cs234/runs/4gn7srfb)
